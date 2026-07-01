@@ -2,6 +2,9 @@
 
 This repository releases the training and evaluation pipeline used in our empathetic response study, covering dataset preparation, LoRA fine-tuning, and LLM-as-a-Judge evaluation for Chinese forum conversations. The codebase currently supports three model tracks in the paper-facing documentation: ChatGLM-6B, Llama3.1-8B, and Llama2-7B.
 
+## Model Weights Storage
+- `fine-tune model`: our fine-tuned model will be updated on [Google Drive](https://drive.google.com/drive/folders/1wOAQQ9c9oeEt5VQxNdpS_chAPTxBOAsv?usp=sharing)
+
 ## Project Layout (Folder Level)
 
 - `fine_tune/`: Data preprocessing, dataloading, model loading, and the main fine-tuning workflow for the Llama training path.
